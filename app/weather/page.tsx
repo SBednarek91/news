@@ -72,8 +72,8 @@ export default function Page() {
             <p className='flex justify-center' id={'longitude'}>Długość geograficzna: {longitude}</p>
             <br></br>
             <p className='flex justify-center' id={'temperature'}>Średnia temperatura (°C): {averageTemperature.toFixed(2)}</p>
-            <p className='flex justify-center' id={'temperature'}>Średnia wilgotność powietrza (%): {averageHumidity.toFixed(2)}</p>
-            <p className='flex justify-center' id={'temperature'}>Średnia prędkość wiatru (km/h): {averageWindSpeed.toFixed(2)}</p>
+            <p className='flex justify-center' id={'humidity'}>Średnia wilgotność powietrza (%): {averageHumidity.toFixed(2)}</p>
+            <p className='flex justify-center' id={'windspeed'}>Średnia prędkość wiatru (km/h): {averageWindSpeed.toFixed(2)}</p>
         </div>
       <div>
         <Link className='flex justify-center absolute inset-x-0 bottom-10' href="/">
