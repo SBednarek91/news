@@ -51,8 +51,8 @@ const Home = () => {
       <div>
         <Link className='flex justify-center absolute inset-x-0 bottom-10' href="/">
           <Image
-            src="/home.png"  
-            alt="strona startowa"
+            src='/home.png'  
+            alt='strona startowa'
             width={60}  
             height={20} 
           />
