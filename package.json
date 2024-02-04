@@ -10,7 +10,7 @@
   },
   "engines": {
     "npm": "9.6.1",
-    "node" : "v19.7.0"
+   "node": ">=18.17.0"
  },
   "dependencies": {
     "next": "^14.1.0",
