@@ -33,7 +33,7 @@ const Home = () => {
   }, []); 
 
   const updateCountdown = () => {
-    const targetDateTime = new Date('2024-02-08T08:00:00').getTime();
+    const targetDateTime = new Date('2024-02-17T08:00:00').getTime();
     const currentTime = new Date().getTime();
     const difference = targetDateTime - currentTime;
     setTimeDifference(difference);
