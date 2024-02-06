@@ -39,6 +39,7 @@ const Home = () => {
     setTimeDifference(difference);
   };
 
+
   const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
   const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
@@ -57,8 +58,7 @@ const Home = () => {
             height={20} 
           />
         </Link>
-        <h1 className='flex flex-col items-center mt-2'>Aktualna data i czas: {currentDateTime}</h1>
-        <h2 className='flex justify-center text-[#f79817] mt-8'>Do staru sesji: 8 Lutego 2024 zostało:</h2>
+        <h2 className='flex justify-center text-[#f79817] mt-8'>Do staru sesji: 17 Lutego 2024 zostało:</h2>
         <p className='flex flex-col items-center text-xl mt-2'>{`${days} dni, ${hours} godzin, ${minutes} minut, ${seconds} sekund`}</p>
       </div>
     </div>
