@@ -76,7 +76,7 @@ export default function Page() {
             <p className='flex justify-center' id={'windspeed'}>Średnia prędkość wiatru (km/h): {averageWindSpeed.toFixed(2)}</p>
         </div>
       <div>
-        <Link className='flex justify-center absolute inset-x-0 bottom-10' href="/">
+        <Link className='flex justify-center inset-x-0 bottom-10' href="/">
           <Image
             src="/home.png"  
             alt="strona startowa"
